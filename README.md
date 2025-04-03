@@ -64,10 +64,7 @@
    ```
 
 ##Detail demo images
-
 ![image](https://github.com/user-attachments/assets/e4758890-8522-46f7-b8d1-88e94da3e48c)
-
-
 ![image](https://github.com/user-attachments/assets/17908bff-3457-4b1c-876e-fb5746d9cb5e)
 
 
