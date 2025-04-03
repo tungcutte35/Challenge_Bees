@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Layout from './components/Layout/Layout';
 import UserTable from './components/UserTable';
 import './App.css';
 
@@ -15,15 +16,13 @@ function App() {
   }, [darkMode]);
 
   const handleThemeToggle = () => {
-    setDarkMode(prev => !prev);
+    setDarkMode((prev) => !prev);
   };
 
   return (
-    <div className={`app ${darkMode ? 'dark' : ''}`}>
-      <div className="app-header">
-        <UserTable darkMode={darkMode} onThemeToggle={handleThemeToggle} />
-      </div>
-    </div>
+    <Layout darkMode={darkMode}>
+      <UserTable darkMode={darkMode} onThemeToggle={handleThemeToggle} />
+    </Layout>
   );
 }
 
