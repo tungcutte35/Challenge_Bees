@@ -65,6 +65,8 @@ const App: React.FC = () => {
   const cancelProcessing = () => {
     cancelRef.current = true;
     setProgress(null);
+    setInputNumbers('');
+    setDelay(0);
     setError('Processing was cancelled');
   };
 
