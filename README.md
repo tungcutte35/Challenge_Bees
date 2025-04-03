@@ -42,11 +42,17 @@
 
    ```bash
    cd App_Development_Test
-   cd app_development_test
    ```
 
    ```bash
+   cd app_development_test
+   ```
+
+ ```bash
    cd Logic_Test
+   ```
+
+   ```bash
    cd logic_test
    ```
 
