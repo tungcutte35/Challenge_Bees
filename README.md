@@ -35,7 +35,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone [[repository-url]](https://github.com/tungcutte35/Challenge_Bees)
+   git clone https://github.com/tungcutte35/Challenge_Bees
    ```
 
 2. Navigate to the project directory:
